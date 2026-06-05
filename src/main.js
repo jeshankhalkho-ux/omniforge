@@ -299,7 +299,7 @@ function loadTool(toolId) {
 // Render Dashboard layout
 function renderDashboard() {
   activeToolId = null;
-  topHeaderTitle.textContent = 'OmniForge Dashboard';
+  topHeaderTitle.textContent = 'Daily Tools Dashboard';
   
   // Clean active tags in sidebar
   document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
